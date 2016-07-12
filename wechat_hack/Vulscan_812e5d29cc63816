@@ -1,0 +1,4 @@
+Scan www.baidu.com
+[Warning] www.baidu.com has no HTTP 404.
+[+] [301] http://www.baidu.com/cache
+[+] [200] http://www.baidu.com/robots.txt

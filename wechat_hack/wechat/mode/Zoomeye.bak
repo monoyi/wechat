@@ -1,0 +1,138 @@
+import os
+
+import requests
+
+import json
+
+import threading
+
+
+
+access_token = ''
+
+ip_list = []
+
+
+
+def login():
+
+    data = {
+
+        'username' : 'nine.twelve@foxmail.com',
+
+		'password' : '1995gundam*'
+    }
+
+    data_encoded = json.dumps(data)
+
+    print data_encoded
+
+    try:
+
+        r = requests.post(url = 'https://api.zoomeye.org/user/login', data = data_encoded)
+
+
+        r_decode = json.loads(r.text)
+
+        print r_decode
+
+        global access_token
+
+        access_token = r_decode['access_token']
+
+    except Exception, e:
+
+        print '[-] info : username or password is wrong, please try again'
+
+        exit()
+
+
+
+def save_to_txt(ip, random):
+
+    with open('target_' + random, 'a+') as output:
+
+        output.write(ip + '\n')
+
+    
+
+def search(target, random, page):
+    
+    global access_token
+
+    with open('access_token.txt', 'r') as input:
+
+        access_token = input.read()
+
+        headers = {
+
+        'Authorization' : 'JWT ' + access_token,                                        
+
+        }
+
+        try:
+            
+            r = requests.get(url = 'http://api.zoomeye.org/host/search?query="' + target +\
+
+            '"&facet=app,os&page=' + str(page), headers = headers)
+
+            r_decoded = json.loads(r.text)
+
+            #two keys : matches and total
+
+            print r_decoded
+            for x in r_decoded['matches']:
+
+                print x['ip']
+
+                save_to_txt(x['ip'], random)
+
+        except  Exception,e:
+
+            if str(e.message) == 'matches':
+
+				print '[-] info : account was break, excceeding the max limitations'
+
+
+            else:
+
+                print '[-] info : ' + str(e.message)
+
+
+def Zoomeye(t):
+
+    if not os.path.isfile('access_token.txt'):
+
+        print '[-] info : access_token file is not exist, login...'
+
+        login()
+
+        with open('access_token.txt', 'w') as output:
+
+            output.write(access_token)
+
+
+    random = ''.join(map(lambda xx:(hex(ord(xx))[2:]),os.urandom(8)))
+   
+    # use multi threads to solve the problem that the program will run 
+    # for a while and Flask will resend many requests
+    # and the wechat cant wait to return the message
+    #
+    # threadpool
+
+    threadpool = []
+
+    for i in range(10):
+        th = threading.Thread(target = search, args = [t, random, i])
+        threadpool.append(th)
+    
+    for th in threadpool:
+        th.setDaemon(True)
+        th.start()
+
+    for th in threadpool:
+        threading.Thread.join(th)
+
+    return 'target_' + random
+
+Zoomeye('joomla')

